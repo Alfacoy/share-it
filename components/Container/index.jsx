@@ -5,7 +5,7 @@ const Container = ({ children, title }) => {
   return (
     <main className={style.container}>
       <Meta
-        img="./avatar.jpg"
+        img="avatar.jpg"
         title="share-it"
         title_social="share-it"
         description="A simple test"
