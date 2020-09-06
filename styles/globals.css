@@ -1,0 +1,30 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+figure {
+  margin: 0;
+}
+
+:root {
+  --title_color: #c5bbbb;
+  --text_color: #fff;
+  --text_card_color_hover: #5078e7;
+  --background_header: #5078e7;
+  --background_card: #5078e7;
+  --border_card_color: #5078e7;
+  --border_avatar: #fff;
+}

@@ -1,0 +1,26 @@
+.card {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  border: 2px solid var(--border_card_color);
+  background-color: var(--background_card);
+}
+
+.card__content {
+  font-weight: bold;
+  color: var(--text_color);
+}
+
+@media screen and (min-width: 1000px) {
+  .card:hover {
+    background-color: transparent;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+  }
+
+  .card__content:hover {
+    color: var(--text_card_color_hover);
+  }
+}

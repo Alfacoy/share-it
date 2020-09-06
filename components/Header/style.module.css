@@ -1,0 +1,15 @@
+.header {
+  background-color: var(--background_header);
+  height: 250px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 6px solid var(--border_avatar);
+  object-fit: cover;
+  transform: translateY(50%);
+}
