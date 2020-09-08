@@ -22,9 +22,9 @@ figure {
 :root {
   --title_color: #c5bbbb;
   --text_color: #fff;
-  --text_card_color_hover: #5078e7;
-  --background_header: #5078e7;
-  --background_card: #5078e7;
-  --border_card_color: #5078e7;
-  --border_avatar: #fff;
+  --text_card_color_hover: #ffaa2a;
+  --background_header: #0a84fe;
+  --background_card: #0a84fe;
+  --border_card_color: #0a84fe;
+  --border_avatar: #ffaa2a;
 }
